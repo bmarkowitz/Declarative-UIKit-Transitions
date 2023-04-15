@@ -17,7 +17,7 @@ enum  AnimationType {
 }
 ```
 
-Views that would like to be involved in a view controller transition conform to `Transitionable`, which requires they provide a `transitionIdentifier`, which is just a `String` value to identify the element in the broader context of the transition, and optionally a custom snapshot implementation. If a custom implementation is not provided, the view is simple snapshotted using the native UIKit implementation.
+Views that would like to be involved in a view controller transition conform to `Transitionable`, which requires they provide a `transitionIdentifier`, which is just a `String` value to identify the element in the broader context of the transition, and optionally a custom snapshot implementation. If a custom implementation is not provided, the view is simply snapshotted using the native UIKit implementation.
 
 In the project's current state, there are 2 views that conform to `Transitionable` - `CardView` and `TabView`.
 

@@ -37,4 +37,6 @@ Then, there are 3 separate implementations of a `Transition` protocol - `EdgeTra
 
 The animations are added as key frames within a standard `UIView.animate` block and executed to completion.
 
+Inside `AnimationFeatureFlag`, you can switch between two transition variants -- `airbnb` and `bottomSheet`.
+
 <img src="https://github.com/bmarkowitz/declarative-uikit-transitions/blob/main/shared-element.gif" width="250" />

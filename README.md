@@ -40,3 +40,5 @@ The animations are added as key frames within a standard `UIView.animate` block 
 Inside `AnimationFeatureFlag`, you can switch between two transition variants -- `airbnb` and `bottomSheet`.
 
 <img src="https://github.com/bmarkowitz/declarative-uikit-transitions/blob/main/shared-element.gif" width="250" />
+
+<img src="https://github.com/bmarkowitz/declarative-uikit-transitions/blob/main/edge-translation.gif" width="250" />
